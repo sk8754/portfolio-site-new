@@ -19,12 +19,12 @@ function Header() {
         <div className="max-w-[1280px] mx-auto">
           <div className="flex justify-between px-4 text-black font-bold h-[4rem]  md:flex md:flex-row relative ">
             <h1 className="absolute top-[18px]">
-              <link
+              <a
                 href="/"
                 className=" text-3xl md:text-4xl inline-block font-NotoSerifJp"
               >
                 sk8754Code
-              </link>
+              </a>
             </h1>
 
             {/* ハンバーガーメニューのボタンアイコン */}
