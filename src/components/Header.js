@@ -19,7 +19,10 @@ function Header() {
         <div className="max-w-[1280px] mx-auto">
           <div className="flex justify-between px-4 text-black font-bold h-[4rem]  md:flex md:flex-row relative ">
             <h1 className="absolute top-[18px]">
-              <a href="/" className=" text-3xl md:text-4xl inline-block">
+              <a
+                href="/"
+                className=" text-3xl md:text-4xl inline-block font-NotoSerifJp"
+              >
                 sk8754Code
               </a>
             </h1>
@@ -43,7 +46,7 @@ function Header() {
               }  right-[0] pt-[25vh] fixed md:absolute md:top-[1.5rem] md:right-12 md:pt-0`}
             >
               {/* ナビゲーションの要素 */}
-              <ul className="md:absolute md:right-[0]  md:flex text-2xl md:gap-8">
+              <ul className=" font-NotoSerifJp  md:absolute md:right-[0]  md:flex text-2xl md:gap-8">
                 <li>
                   <a
                     href="/"
@@ -90,10 +93,10 @@ function Header() {
         </div>
         <div className="absolute right-[10%] bottom-[10%]">
           <a
-            href="/"
-            className="text-black font-bold md:text-[32px] bg-gradient-to-r from-[#FCBB3E] to-[#E683F6] py-[9px] px-[29px] rounded-[35px]"
+            href="https://github.com/sk8754?tab=repositories"
+            className="text-black font-bold md:text-[32px] bg-gradient-to-r from-[#FCBB3E] to-[#E683F6] py-[9px] px-[29px] rounded-[35px] font-NotoSerifJp"
           >
-            お問い合わせはこちら
+            gitHubはこちら
           </a>
         </div>
       </header>
