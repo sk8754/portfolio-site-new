@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import mainvisual from "../images/24353281_m.jpg";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -11,7 +12,7 @@ function Header() {
       <header
         className="h-screen relative opacity-[75%] overflow-x-clip"
         style={{
-          backgroundImage: "url(/img/24353281_m.jpg)",
+          backgroundImage: `url(${mainvisual})`,
           backgroundPosition: "top,center",
         }}
       >
